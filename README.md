@@ -1,6 +1,8 @@
 # COSC 426B Midterm Project
 
 Authors: Leo, Daniel Jeong
+Project Plan: Due Sep 24th
+Due: Oct 17th
 
 ## Objectives
 
