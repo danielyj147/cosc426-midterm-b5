@@ -6,12 +6,12 @@ Due: Oct 17th
 
 ## Files we plan to create
 
-| Task name                                  | Files                            |
-| ------------------------------------------ |  -------------------------------- |
-| Data Generation                            | Dataset.tsv, Data TSV FIle       |
-| Using NLPScholar to generate results files | results.tsv, Result TSV FIle     |
-| Data Analysis (Writing the paper)          | Midterm.tex, Midterm.pdf         |
-| Data Visualization                         | Midterm.pdf, ([+] Python code)   |
+| Task name                                  | Files                            | Deadline |
+| ------------------------------------------ |  -------------------------------- | -------------------------------- |
+| Data Generation                            | Dataset.tsv, Data TSV FIle       | Oct 7th |
+| Using NLPScholar to generate results files | results.tsv, Result TSV FIle     | Oct 7th |
+| Data Analysis (Writing the paper)          | Midterm.tex, Midterm.pdf         | Oct 14th|
+| Data Visualization                         | Midterm.pdf, ([+] Python code)   | Oct 14th|
 
 ## Objectives
 
