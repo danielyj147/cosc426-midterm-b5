@@ -8,6 +8,8 @@ Due: Oct 17th
 
 Replicate [Valentin Hofmann, Pratyusha Ria Kalluri, Dan Jurafsky, Sharese King. 2024. Dialect prejudice predicts AI decisions about people's character, employability, and criminality. On arXiv.](https://arxiv.org/pdf/2403.00742)
 
+[Requirements](https://docs.google.com/presentation/d/1qzhyQkgqmuYo8k0Ie3q_xLzo9c1aGykxgPPZyaL4b5g/edit?slide=id.g37ba8565e88_0_433#slide=id.g37ba8565e88_0_433)
+
 The replication requries 3 deliverables:
 
 ### 1. A project plan
