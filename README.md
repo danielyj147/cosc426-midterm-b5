@@ -4,6 +4,15 @@ Authors: Leo, Daniel Jeong
 Project Plan: Due Sep 24th
 Due: Oct 17th
 
+## Files we plan to create
+
+| Task name                                  | Files                            |
+| ------------------------------------------ |  -------------------------------- |
+| Data Generation                            | Dataset.tsv, Data TSV FIle       |
+| Using NLPScholar to generate results files | results.tsv, Result TSV FIle     |
+| Data Analysis (Writing the paper)          | Midterm.tex, Midterm.pdf         |
+| Data Visualization                         | Midterm.pdf, ([+] Python code)   |
+
 ## Objectives
 
 Replicate [Valentin Hofmann, Pratyusha Ria Kalluri, Dan Jurafsky, Sharese King. 2024. Dialect prejudice predicts AI decisions about people's character, employability, and criminality. On arXiv.](https://arxiv.org/pdf/2403.00742)
