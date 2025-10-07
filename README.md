@@ -34,3 +34,28 @@ All of the code and files we used for our replication paper. To receive full poi
 [Overleaf Paper Repo](https://www.overleaf.com/project/68c83ff54f587413df65d21e)
 
 For more details, see [cosc426/Midterm.md](https://github.com/grushaprasad/cosc426/blob/main/Midterm.md)
+
+```text
+.
+├── NLPproject.ipynb
+├── README.md
+├── config_gpt2.yaml
+├── config_roberta.yaml
+├── data
+│   ├── GeneratedSentences.tsv: eval input data
+│   ├── Texts.csv
+│   ├── gpt2results.tsv: analysis result
+│   ├── occupations.csv
+│   └── pairs_data.tsv
+├── pairs_data.txt
+├── predictions
+├── pyproject.toml
+├── results
+│   └── testresults.tsv
+├── util.py
+└── uv.lock
+```
+
+In the results datasets, accuracy is the most important figure sincen it represents how much the model expects a AAE speaker to have that occupation
+
+In the minimalpair comparison data, expected represents AAE sentence and unexpected represents SAE sentence.
