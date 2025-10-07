@@ -1,0 +1,19 @@
+exp: MinimalPair
+
+mode:
+  - evaluate
+  - analyze
+
+models:
+  hf_masked_model:
+    - FacebookAI/roberta-base
+
+predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/roberta_agreement.tsv
+
+datafpath: /Users/jeong/Projects/cosc426-midterm-b5/data/GeneratedSentences.tsv
+
+resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/roberta_agreement.tsv
+
+punctuation: previous
+save: by_cond
+conditions: Occupation

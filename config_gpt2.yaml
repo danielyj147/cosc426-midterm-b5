@@ -1,0 +1,19 @@
+exp: MinimalPair
+
+mode:
+  - evaluate
+  - analyze
+
+models:
+  hf_causal_model:
+    - gpt2
+
+predfpath: ../NLPProject/predictions/agreement.tsv
+
+datafpath: ../NLPProject/GeneratedSentences.tsv
+
+resultsfpath: ../NLPProject/results/agreement.tsv
+
+punctuation: previous # infusing punctuations to its previous word.
+save: by_cond
+conditions: Occupation
