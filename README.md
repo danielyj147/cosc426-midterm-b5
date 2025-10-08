@@ -46,7 +46,7 @@ For more details, see [cosc426/Midterm.md](https://github.com/grushaprasad/cosc4
 │   ├── Texts.csv
 │   ├── gpt2results.tsv: analysis result
 │   ├── occupations.csv
-│   └── pairs_data.tsv
+│   └── pairs_eval.tsv
 ├── pairs_data.txt
 ├── predictions
 ├── pyproject.toml

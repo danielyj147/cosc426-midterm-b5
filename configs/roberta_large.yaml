@@ -10,7 +10,7 @@ models:
 
 predfpath: ../cosc426-midterm-b5/predictions/roberta_large.tsv
 
-datafpath: ../cosc426-midterm-b5/data/data.tsv
+datafpath: ../cosc426-midterm-b5/data/eval.tsv
 
 resultsfpath: ../cosc426-midterm-b5/results/roberta_large.tsv
 
@@ -19,3 +19,5 @@ punctuation: previous
 save: by_cond
 
 conditions: occupation
+
+device: cuda
