@@ -219,4 +219,5 @@ __marimo__/
 
 archive
 
-data/data.tsv
+# Ignores generated data
+data
