@@ -8,11 +8,11 @@ models:
   hf_masked_model:
     - FacebookAI/roberta-base
 
-predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/roberta_base.tsv
+predfpath: ../cosc426-midterm-b5/predictions/roberta_base.tsv
 
-datafpath: /Users/jeong/Projects/cosc426-midterm-b5/data/data.tsv
+datafpath: ../cosc426-midterm-b5/data/data.tsv
 
-resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/roberta_base.tsv
+resultsfpath: ../cosc426-midterm-b5/results/roberta_base.tsv
 
 punctuation: previous
 
