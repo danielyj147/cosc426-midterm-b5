@@ -1,0 +1,21 @@
+exp: MinimalPair
+
+mode:
+  - evaluate
+  - analyze
+
+models:
+  hf_causal_model:
+    - gpt2
+
+predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/gpt2.tsv
+
+datafpath: /Users/jeong/Projects/cosc426-midterm-b5/data/data.tsv
+
+resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/gpt2.tsv
+
+punctuation: previous # infusing punctuations to its previous word.
+
+save: by_cond
+
+conditions: Occupation

@@ -8,12 +8,14 @@ models:
   hf_masked_model:
     - FacebookAI/roberta-base
 
-predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/roberta_prediction.tsv
+predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/roberta.tsv
 
 datafpath: /Users/jeong/Projects/cosc426-midterm-b5/data/data.tsv
 
-resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/roberta_results.tsv
+resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/roberta.tsv
 
 punctuation: previous
+
 save: by_cond
+
 conditions: Occupation
