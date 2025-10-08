@@ -6,16 +6,16 @@ mode:
 
 models:
   hf_causal_model:
-    - gpt2
+    - openai-community/gpt2
 
-predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/gpt2.tsv
+predfpath: /Users/jeong/Projects/cosc426-midterm-b5/predictions/gpt2_base.tsv
 
 datafpath: /Users/jeong/Projects/cosc426-midterm-b5/data/data.tsv
 
-resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/gpt2.tsv
+resultsfpath: /Users/jeong/Projects/cosc426-midterm-b5/results/gpt2_base.tsv
 
 punctuation: previous # infusing punctuations to its previous word.
 
 save: by_cond
 
-conditions: Occupation
+conditions: occupation
