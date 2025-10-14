@@ -64,19 +64,18 @@ PRETTY_T5_MODELS = [
     "T5 (large)",
     "T5 (3b)"
 ]
-FAMILIES = [
-    "gpt2", 
-    "roberta", 
-    "t5", 
-    "gpt3",
-    "gpt4"
-]
+FAMILIES = ["openai-community/gpt2", 
+            "FacebookAI/roberta-base", 
+            # "t5", 
+            # "gpt3", 
+            # "gpt4"
+            ]
 PRETTY_FAMILIES = [
     "GPT2",
     "RoBERTa",
-    "T5",
-    "GPT3.5",
-    "GPT4"
+    # "T5",
+    # "GPT3.5",
+    # "GPT4"
 ]
 MODELS = (
     GPT2_MODELS + 
@@ -148,7 +147,7 @@ def model2family(model):
         return "roberta"
     elif model in T5_MODELS:
         return "t5"
-    
+
 
 def pretty_model2family(model):
     if model in PRETTY_GPT2_MODELS:
@@ -174,7 +173,7 @@ def family2models(family):
         return ROBERTA_MODELS
     elif family == "t5":
         return T5_MODELS
-    
+
 
 def family2pretty_models(family):
     if family == "gpt2":
@@ -191,11 +190,11 @@ def family2pretty_models(family):
 
 def pretty_family(family):
     pretty_dict = {
-        "gpt2": "GPT2",
+        "openai-community/gpt2": "GPT2",
         "gpt3": "GPT3.5",
         "gpt4": "GPT4",
-        "roberta": "RoBERTa",
-        "t5": "T5"
+        "FacebookAI/roberta-base": "RoBERTa",
+        "t5": "T5",
     }
     return pretty_dict[family]
 
@@ -632,7 +631,7 @@ def attribute2class(attribute, stereo_attributes):
         return "stereo"
     else:
         return "general"
-    
+
 
 def is_match(prompt, attribute):
     vowel = ("a", "e", "i", "o", "u")
