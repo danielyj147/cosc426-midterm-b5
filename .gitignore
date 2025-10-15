@@ -222,4 +222,6 @@ __marimo__/
 archive
 
 # Ignores generated data
-data
+data/*
+
+!data/attributes

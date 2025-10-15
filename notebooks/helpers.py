@@ -8,10 +8,10 @@ import pandas as pd
 import ratings
 
 # Define path to attribute lists
-ATTRIBUTES_PATH = os.path.realpath("data/attributes/{}.txt")
+ATTRIBUTES_PATH = os.path.realpath("../data/attributes/{}.txt")
 
 # Define path to variables
-VARIABLES_PATH = os.path.realpath("data/pairs/{}.txt")
+VARIABLES_PATH = os.path.realpath("../data/pairs/{}.txt")
 
 # Define path to continuation probabilities
 PROBS_PATH = os.path.realpath("probing/probs/")
