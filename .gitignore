@@ -225,3 +225,6 @@ archive
 data/*
 
 !data/attributes
+
+# Mac OS
+.DS_Store
