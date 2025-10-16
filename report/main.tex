@@ -123,6 +123,24 @@ Our analysis of dialec-occupation association provides a partial replication of 
     \label{fig:occ-association}
 \end{figure*}
 
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{../assets/prestige-association-by-model.png}
+
+    \caption{Prestige of occupations associated with AAE (positive values) vs. SAE (negative values), for individual language models. The shaded areas show 95\% confidence bands. The association with AAE vs. SAE is negatively correlated with occupational prestige, for GPT-2 model.}
+
+    \label{fig:prestige-association}
+\end{figure*}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{../assets/prestige-association-all-mean.png}
+
+    \caption{Prestige of occupations that language models associate with AAE (positive values) vs. SAE (negative values). The shaded area shows a 95\% confidence band. The association with AAE vs. SAE predicts occupational prestige.}
+
+    \label{fig:prestige-association}
+\end{figure*}
+
 The GPT-2 base model demonstrated a clear, negative correlation between the association with African American English and occupational prestige. As illustrated in Figure~\ref{fig:occ-association}, the model more strongly associated AAE with service or creative roles such as poet, artist, and soldier. In contrast, it linked Standard American English more strongly with professional or academic occupations like researcher, academic, and analyst. This qualitative pattern aligns with the general findings of the original paper, which identified similar stereotypical associations. Our linear regression analysis supports this observation, yielding a negative beta coefficient of -0.7 (Table~\ref{tab:stat}). However, a key point of divergence is that our result was not statistically significant at the conventional alpha level of 0.05, with a p-value of .06. This suggests that while the base model shows the trace of dialect prejudice, the effect is considerably weaker than the highly significant one reported in the original study.
 
 % occupational prestiage & aae
