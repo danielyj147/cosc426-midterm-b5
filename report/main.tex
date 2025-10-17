@@ -109,7 +109,7 @@ In the analyze phase, the library aggregated these log probabilities. It grouped
 
 \section{Results}
 
-Our analysis of dialec-occupation association provides a partial replication of the findings reported by \citet{hofmann_dialect_2024}. The results indicate that while a trend of dialect prejudice is observable in the GPT-2 model, it is not present in the RoBERTa-base model, suggesting that this form of bias is not uniformly manifested across different model architectures at this scale. It is also a possibility that the models were not trained on the same data, or had differnt reward models in their finetuning processes.
+Our analysis of dialect-occupation association provides a partial replication of the findings reported by \citet{hofmann_dialect_2024}. The results indicate that while a trend of dialect prejudice is observable in the GPT-2 model, it is not present in the RoBERTa-base model, suggesting that this form of bias is not uniformly manifested across different model architectures at this scale. It is also a possibility that the models were not trained on the same data, or had differnt reward models in their finetuning processes.
 
 
 \subsection{Insignificant Dialect Prejudice in GPT-2}
@@ -138,7 +138,7 @@ Our analysis of dialec-occupation association provides a partial replication of 
 
     \caption{Prestige of occupations that language models associate with AAE (positive values) vs. SAE (negative values). The shaded area shows a 95\% confidence band. The association with AAE vs. SAE predicts occupational prestige.}
 
-    \label{fig:prestige-association}
+    \label{fig:prestige-all}
 \end{figure*}
 
 The GPT-2 base model demonstrated a clear, negative correlation between the association with African American English and occupational prestige. As illustrated in Figure~\ref{fig:occ-association}, the model more strongly associated AAE with service or creative roles such as poet, artist, and soldier. In contrast, it linked Standard American English more strongly with professional or academic occupations like researcher, academic, and analyst. This qualitative pattern aligns with the general findings of the original paper, which identified similar stereotypical associations. Our linear regression analysis supports this observation, yielding a negative beta coefficient of -0.7 (Table~\ref{tab:stat}). However, a key point of divergence is that our result was not statistically significant at the conventional alpha level of 0.05, with a p-value of .06. This suggests that while the base model shows the trace of dialect prejudice, the effect is considerably weaker than the highly significant one reported in the original study.
